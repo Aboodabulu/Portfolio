@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="milestone" content="Portfolio">
+  <!-- TODO: Replace this with your title -->
+  <title>[Your Title Here]</title>
+  <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+		-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+
+  <!-- Custom styles (these can extend the default Bootstrap styles) -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- TODO: Paste Navbar code and customize links -->
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a href="#home" class="navbar-brand">
+        <i class="bi bi-house-fill"></i>
+      </a>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="nav-collapse" class="collapse navbar-collapse">
+        <div class="navbar-nav">
+          <a href="#mission" class="nav-link">Mission</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section id="hero-section">
+    <div class="hero-section text-center bg-cover bg-center py-5"
+      style="background-image: url('img/web-hero-image.jpg');">
+      <img src="img/aboodokpic.jpg" class="rounded-circle border" alt="Abood Abulubdeh">
+      <h1>Abood Abulubdeh</h1>
+      <p class="tagline">Aspiring Web Developer</p>
+    </div>
+  </section>
+
+  <!-- Mission/Meet-me section -->
+  <section id="mission" class="text-center py-5">
+    <div class="container">
+      <h2 class="pb-3">My Mission</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-3">
+          <img src="img/coding-on-laptop.jpg" alt="Coding on Laptop" class="img-fluid">
+        </div>
+        <div class="col-md-6 mb-3">
+          <p>I am dedicated to developing the technical proficiency and creative problem-solving skills necessary to
+            succeed as a professional web developer. By blending a solid foundation in computer science with the latest
+            web technologies, my aim is to craft seamless and responsive web applications. As I progress through my
+            college education, I am focused on building a diverse portfolio that demonstrates my commitment to
+            user-centric design and effective functionality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Skills section -->
+  <section id="skills" class="text-center py-5 bg-dark">
+    <h2 class="pb-4">Skills</h2>
+    <div class="container">
+      <div class="row">
+        <!-- Skill 1 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <img src="img/html-icon.png" alt="HTML" class="img-fluid skill-icon">
+          <h3>HTML</h3>
+          <p>Structuring the web's content using modern semantic HTML.</p>
+        </div>
+        <!-- Skill 2 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <img src="img/css-icon.png" alt="CSS" class="img-fluid skill-icon">
+          <h3>CSS</h3>
+          <p>Presenting beautiful web designs and interactions using modern CSS.</p>
+        </div>
+        <!-- Skill 3 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <img src="img/bootstrap-icon.jpg" alt="Bootstrap" class="img-fluid skill-icon">
+          <h3>Bootstrap</h3>
+          <p>Rapidly developing responsive websites using the web's most popular framework.</p>
+        </div>
+        <!-- Skill 4 -->
+        <div class="col-lg-3 col-md-6 col-12 mb-4">
+          <img src="img/js-icon.png" alt="JavaScript" class="img-fluid skill-icon">
+          <h3>JavaScript</h3>
+          <p>Making interactive experiences, games, web apps, and more using JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="text-center bg-teal py-5">
+    <h2>Contact</h2>
+    <div class="container">
+      <div class="row">
+        <!-- Contact 1 -->
+        <div class="col-md-4 col-12 mb-3">
+          <a class="contact" href="https://www.linkedin.com/in/yourprofile">
+            <i class="bi bi-linkedin icon-hover" style="color:royalblue"></i>
+          </a>
+        </div>
+        <!-- Contact 2 -->
+        <div class="col-md-4 col-12 mb-3">
+          <a class="contact" href="https://github.com/Aboodabulu">
+            <i class="bi bi-github icon-hover" style="color:black"></i>
+          </a>
+        </div>
+        <!-- Contact 3 -->
+        <div class="col-md-4 col-12 mb-3">
+          <a class="contact" href="mailto:abulubd4@msu.edu">
+            <i class="bi bi-envelope-at-fill icon-hover" style="color:indianred"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <footer class="container-fluid text-center bg">
+      <div class="row">
+        <div class="col-12 py-3">
+          &copy; Abood Abulubdeh 2024
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  	-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

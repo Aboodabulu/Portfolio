@@ -1,0 +1,126 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+/* I worked on this on github initially so I can actually use this as my portfolio
+for my resume. That is the reason for the blocks of coded that may be added in both
+the CSS and HTML files. JS file was copied from a separate repl from previous
+code along.*/
+
+.navbar-nav {
+    margin-left: auto;
+    color: #a6a6a6;
+  }
+  
+  footer {
+      background-color: #333; 
+      color: white; 
+  }
+  
+  footer .row {
+      min-height: 8%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  section .hero-section {
+    position: relative;
+    width: 100%;
+    background-image: url("img/web-hero-image.jpg");
+    color: white;
+    
+  }
+  
+  .bg-cover {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .border {
+    border: 5px solid black;
+    padding: 5px;
+    margin-top: 50px;
+  }
+  
+  .rounded-circle {
+    width: 150px; 
+    height: auto;
+    display: inline-block; 
+  }
+  
+  .tagline {
+    font-size: 1.5rem; 
+    margin-top: 20px; 
+  }
+  
+  
+  @media (min-width: 768px) {
+    .rounded-circle {
+        width: 200px; 
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .rounded-circle {
+        width: 250px; 
+    }
+  }
+  
+  
+  #mission {
+    background-color: #f8f9fa; 
+    color: #333; 
+  }
+  
+  #mission img {
+    border-radius: 5px; 
+    
+  }
+  
+  @media (max-width: 767.98px) {
+      #mission .row {
+          text-align: left;
+      }
+  }
+  
+  @media (min-width: 768px) {
+      #mission .row {
+          text-align: left;
+      }
+  }
+  
+  
+  .skill-icon {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 80px; 
+  }
+  
+  #skills h3 {
+    margin-top: 15px;
+    color: white;
+  }
+  
+  #skills p {
+    color: #a6a6a6;
+  }
+  
+  #contact {
+    background-color: #eaeaec;
+  }
+  
+  .icon-hover {
+    transition-duration: .3s;
+    max-width: 50px;
+    font-size: 300%;
+  }
+  
+  .icon-hover:hover {
+    transform: scale(1.5);
+  }
+  
+  .bi-house-fill {
+    font-size: 120%;
+  }
